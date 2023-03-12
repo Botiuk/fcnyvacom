@@ -1,0 +1,51 @@
+#myPager {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+ul.yiiPager {
+	font-size: 18px;
+	border: 0;
+	margin: 10px;
+	padding: 20px;
+	line-height: 100%;
+	display: inline;    
+}
+
+ul.yiiPager li{
+    display:inline;
+}
+
+ul.yiiPager a:link,ul.yiiPager a:visited{
+    border:solid 1px #FFDE17;
+    background:#060;
+    font-weight:bold;
+    color: #FFDE17;
+    padding:1px 6px;
+    text-decoration:none;
+    border-radius: 7px;
+}
+
+ul.yiiPager .page a{
+	font-weight:normal;
+}
+
+ul.yiiPager a:hover{
+	border:solid 1px #060;
+	background:#FFDE17; 
+	color: #060;
+}
+
+ul.yiiPager .selected a{
+	font-size: 24px;
+	background: #FFDE17;
+	color:#060;
+	font-weight: bold;
+	border: 1px solid #060
+}
+
+ul.yiiPager .hidden a{
+	border:solid 1px #bababa;
+	color:#888888;
+	background:#060;
+}
